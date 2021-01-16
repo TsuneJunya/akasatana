@@ -1,0 +1,143 @@
+@media screen and (min-width: 768px){
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: inherit;
+}
+
+.main-header {
+    height: 100px;
+    background-color: lightsalmon;
+    color: white;
+}
+
+.main-header h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.main-content {
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: mistyrose;
+    height: 750px;
+    color: white;
+}
+
+.pref {
+    margin-right: 30px;
+}
+
+.pref p {
+    font-size: 40px;
+    color: black;
+    background-color: aquamarine;
+    text-align: center;
+    letter-spacing: 15px;
+    border-radius: 20px;
+}
+
+.pref a {
+    font-size: 25px;
+    margin-right: 10px;
+    color: rgb(12, 26, 221);
+}
+
+.kita {
+    display: flex;
+    
+}
+
+.naka {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.minami {
+    display: flex;
+}
+
+.back-top {
+    margin-top: 50px;
+    color: white;
+    
+}
+
+.back-top a {
+    font-size: 25px;
+    background-color: #000;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+}
+/* ---------------------------------------------------------------- */
+
+@media screen and (max-width: 768px){
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: inherit;
+}
+
+.main-header {
+    height: 100%;
+    background-color: lightsalmon;
+    color: white;
+}
+
+.main-header h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-content {
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: mistyrose;
+    height: 750px;
+    color: white;
+}
+
+.pref {
+    margin-right: 10px;
+}
+
+.pref p {
+    font-size: 15px;
+    color: black;
+    background-color: aquamarine;
+    text-align: center;
+    letter-spacing: 15px;
+    border-radius: 20px;
+}
+
+.pref a {
+    font-size: 8px;
+    margin-right: 10px;
+    color: rgb(12, 26, 221);
+}
+
+
+.back-top {
+    margin-top: 50px;
+    color: white;
+    
+}
+
+.back-top a {
+    font-size: 5px;
+    background-color: #000;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+}
